@@ -1,0 +1,7 @@
+<!--components/pic-header/pic-header.wxml-->
+<!-- <text>components/pic-header/pic-header.wxml</text> -->
+<view class="pic">
+
+<image  src="https://tse2-mm.cn.bing.net/th/id/OIP-C.f8IBsveB7hL1L3BBMOpflAHaE8?rs=1&pid=ImgDetMain" mode=""/>
+
+</view>
