@@ -1,0 +1,67 @@
+// 定义一些全局变量
+$primary-color: #FF5F15;
+$secondary-color: #666666;
+$background-color: rgb(247, 247, 247);
+$white-color: #ffffff;
+$padding: 20rpx;
+$margin: 30rpx;
+$border-radius: 10rpx;
+
+.page-container {
+  background-color: $background-color;
+  padding: $padding;
+  box-sizing: border-box;
+}
+
+.cart-item {
+  background-color: $white-color;
+  border-radius: $border-radius;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: $margin;
+  
+  .van-card__title,
+  .van-card__desc,
+  .van-card__price {
+    font-size: 28rpx;
+  }
+  
+  .van-card__num {
+    font-size: 24rpx;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: $padding;
+    
+    .van-button {
+      flex: 1;
+      margin: 0 5rpx;
+    }
+  }
+}
+
+.submit-bar {
+  background-color: $white-color;
+  border-radius: $border-radius;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  .van-submit-bar__price {
+    color: $primary-color;
+  }
+
+  .van-submit-bar__button {
+    background-color: $primary-color;
+    color: $white-color;
+  }
+
+  .van-submit-bar__tip {
+    font-size: 24rpx;
+    color: $secondary-color;
+  }
+
+  .van-submit-bar__tip-icon {
+    width: 24rpx;
+    height: 24rpx;
+  }
+}

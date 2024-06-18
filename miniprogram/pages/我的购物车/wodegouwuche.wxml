@@ -1,0 +1,27 @@
+<!-- pages/我的购物车/wodegouwuche.wxml -->
+<view class="page-container">
+  <van-card
+    class="cart-item"
+    num="2"
+    tag="热卖"
+    price="3012.00"
+    desc="精品三蹦子，大力王，远续航，农业好帮手"
+    title="精品三蹦子"
+    thumb="https://tse2-mm.cn.bing.net/th/id/OIP-C.f8IBsveB7hL1L3BBMOpflAHaE8?rs=1&pid=ImgDetMain"
+  >
+    <view slot="footer" class="card-footer">
+      <van-button size="mini" type="primary">加入购物车</van-button>
+      <van-button size="mini" type="warning">移除</van-button>
+    </view>
+  </van-card>
+  
+  <van-submit-bar
+    class="submit-bar"
+    disabled
+    price="{{ 3050 }}"
+    button-text="提交订单"
+    tip="您的收货地址不支持同城送, 我们已为您推荐快递"
+    tip-icon="https://img.yzcdn.cn/1.png"
+    bind:submit="onSubmit"
+  />
+</view>

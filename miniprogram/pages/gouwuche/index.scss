@@ -1,1 +1,62 @@
-/* pages/gouwuche/index.wxss */
+// 定义一些全局变量
+$primary-color: #FF5F15;
+$secondary-color: #666666;
+$background-color: rgb(247, 247, 247);
+$white-color: #ffffff;
+$padding: 20rpx;
+$margin: 30rpx;
+$border-radius: 10rpx;
+$image-size: 100rpx;
+
+.main {
+  background-color: $background-color;
+  padding: $padding;
+  border-radius: $border-radius;
+  margin-bottom: $margin;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  .section-title {
+    font-size: 32rpx;
+    font-weight: bold;
+    color: $primary-color;
+    margin-bottom: $padding;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    .nav-item {
+      text-decoration: none;
+    }
+
+    .item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 200rpx;
+
+      image {
+        height: $image-size;
+        width: $image-size;
+        margin-bottom: 10rpx;
+        border-radius: $border-radius;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .item-text {
+        font-size: 28rpx;
+        color: $secondary-color;
+        text-align: center;
+      }
+    }
+
+    .placeholder-text {
+      font-size: 28rpx;
+      color: $secondary-color;
+      text-align: center;
+    }
+  }
+}

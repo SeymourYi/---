@@ -1,16 +1,17 @@
 {
   "pages": [
-    "pages/index/index",
     "pages/gouwuche/index",
-    "pages/wode/index"
-   
+    "pages/index/index",
+    "pages/wode/index",
+    "pages/工厂采购/gongchangcaigou",
+    "pages/detail/detail",
+    "pages/我的购物车/wodegouwuche"
   ],
   "window": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "步步高",
     "navigationBarBackgroundColor": "#ffffff"
   },
-  
   "componentFramework": "glass-easel",
   "sitemapLocation": "sitemap.json",
   "lazyCodeLoading": "requiredComponents",
@@ -29,7 +30,6 @@
         "pagePath": "pages/gouwuche/index",
         "iconPath": "./statec/image/all.png",
         "selectedIconPath": "./statec/image/all-fill.png"
-
       },
       {
         "text": "我的",
@@ -40,7 +40,13 @@
     ]
   },
   "usingComponents": {
-    "pic-header":"components/pic-header/pic-header",
-    "van-button": "@vant/weapp/button/index"
+    "pic-header": "components/pic-header/pic-header",
+    "van-button": "@vant/weapp/button/index",
+    "van-search": "@vant/weapp/search/index",
+    "van-tree-select": "@vant/weapp/tree-select/index",
+    "van-tab": "@vant/weapp/tab/index",
+    "van-tabs": "@vant/weapp/tabs/index",
+    "van-submit-bar": "@vant/weapp/submit-bar/index",
+    "van-card": "@vant/weapp/card/index"
   }
 }

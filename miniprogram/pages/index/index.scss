@@ -60,3 +60,18 @@ page {
 .nickname-input {
   flex: 1;
 }
+.main{
+  display: flex;
+  view{
+    font-size: small;
+    margin-left: 40rpx;
+    margin-right: 40rpx;
+    display: flex;
+    flex-direction: column;
+    image{
+    margin-left: 5rpx;
+      height: 100rpx;
+      width: 100rpx;
+    }
+  }
+}

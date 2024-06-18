@@ -1,0 +1,90 @@
+/* pages/detail/detail.wxss */// 定义一些全局变量
+$primary-color: #FF5F15;
+$secondary-color: #666666;
+$background-color: #f8f8f8;
+$white-color: #ffffff;
+$padding: 20rpx;
+$margin: 20rpx;
+$border-radius: 10rpx;
+
+.page-container {
+  background-color: $background-color;
+  display: flex;
+  flex-direction: column;
+  height: 100vh; // 占满整个视口高度
+  padding: $padding;
+  box-sizing: border-box;
+
+  .header {
+    background-color: $white-color;
+    padding: $padding;
+    border-radius: $border-radius;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: $margin;
+
+    .category-id {
+      font-size: 28rpx;
+      color: $secondary-color;
+      margin-bottom: $padding;
+    }
+
+    pic-header {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .content {
+    flex: 1;
+    background-color: $white-color;
+    padding: $padding;
+    border-radius: $border-radius;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: $margin;
+
+    .product-title {
+      font-size: 32rpx;
+      font-weight: bold;
+      color: $primary-color;
+      margin-bottom: $padding;
+    }
+
+    .product-details {
+      .detail-item {
+        display: flex;
+        justify-content: space-between;
+        padding: $padding 0;
+        border-bottom: 1px solid #e5e5e5;
+
+        &:last-child {
+          border-bottom: none;
+        }
+
+        .detail-label {
+          font-size: 28rpx;
+          color: $secondary-color;
+        }
+
+        .detail-value {
+          font-size: 28rpx;
+          color: $primary-color;
+        }
+      }
+    }
+  }
+
+  .submit-bar {
+    background-color: $white-color;
+    border-radius: $border-radius;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    .van-submit-bar__price {
+      color: $primary-color;
+    }
+
+    .van-submit-bar__button {
+      background-color: $primary-color;
+      color: $white-color;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+<!--pages/工厂采购/gongchangcaigou.wxml-->
+<van-search></van-search>
+
+<view>
+  <van-tree-select
+    items="{{items}}"
+    main-active-index="{{mainActiveIndex}}"
+    active-id="{{activeId}}"
+    bind:click-nav="onClickNav"
+    bind:click-item="onClickItem"
+  />
+</view>
