@@ -23,7 +23,7 @@
   },
   "include": [
     "./**/*.ts"
-, "miniprogram/pages/工厂采购/gongchangcaigou.js", "miniprogram/pages/detail/detail.js"  ],
+, "miniprogram/pages/工厂采购/gongchangcaigou.js", "miniprogram/pages/detail/detail.js", "miniprogram/pages/我的购物车/wodegouwuche.js"  ],
   "exclude": [
     "node_modules"
   ]

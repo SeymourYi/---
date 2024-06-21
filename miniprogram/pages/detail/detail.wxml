@@ -1,35 +1,27 @@
 <view class="page-container">
   <view class="header">
-    <text class="category-id">分类 ID: {{categoryId}}</text>
+    <!-- <text class="category-id">分类 ID: {{productDetails.id}}</text> -->
     <pic-header></pic-header>
   </view>
   
   <view class="content">
-    <view class="product-title">精品三绷子</view>
+    <view class="product-title">{{productDetails.chexing}}</view>
     <view class="product-details">
       <view class="detail-item">
-        <text class="detail-label">车所属分类:</text>
-        <text class="detail-value">豪华轿车</text>
+        <text class="detail-label">车型:</text>
+        <text class="detail-value">{{productDetails.pinlei}}</text>
       </view>
       <view class="detail-item">
-        <text class="detail-label">电机功率:</text>
-        <text class="detail-value">150 kW</text>
+        <text class="detail-label">型号:</text>
+        <text class="detail-value">{{productDetails.code}}</text>
       </view>
       <view class="detail-item">
-        <text class="detail-label">电池:</text>
-        <text class="detail-value">75 kWh</text>
+        <text class="detail-label">装运类型:</text>
+        <text class="detail-value">{{productDetails.zhuangyun}}</text>
       </view>
       <view class="detail-item">
-        <text class="detail-label">轴距:</text>
-        <text class="detail-value">2800 mm</text>
-      </view>
-      <view class="detail-item">
-        <text class="detail-label">最大马力:</text>
-        <text class="detail-value">300 hp</text>
-      </view>
-      <view class="detail-item">
-        <text class="detail-label">最大续航里程:</text>
-        <text class="detail-value">500 km</text>
+        <text class="detail-label">电池类型:</text>
+        <text class="detail-value">{{productDetails.batteryType}}</text>
       </view>
     </view>
   </view>
