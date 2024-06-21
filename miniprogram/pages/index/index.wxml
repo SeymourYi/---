@@ -4,18 +4,18 @@
   <view class="main">
     <navigator url="../工厂采购/gongchangcaigou" class="nav-item">
   <view>
-  <image src="../../statec/image/下雪.png" mode=""/>
+  <image src="../../statec/image/原辅材料购买.png" mode=""/>
   工厂采购
   </view>
 </navigator>
 <navigator url="../我的购物车/wodegouwuche" class="nav-item">
   <view>
-  <image src="../../statec/image/圣诞日历.png" mode=""/>
+  <image src="../../statec/image/FullShoppingCart.png" mode=""/>
   购物车
   </view>
 </navigator>
   <view>
-    <image src="../../statec/image/雪人.png" mode=""/>
+    <image src="../../statec/image/原辅材料购买.png" mode=""/>
   自订货
   </view>
   </view>

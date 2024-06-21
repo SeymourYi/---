@@ -1,2 +1,101 @@
-<!--pages/wode/index.wxml-->
-<text>pages/wode/index.wxml</text>
+<!-- <text>pages/wode/index.wxml</text> -->
+<view class="view_contain">
+  <!-- 第一部分 -->
+  <view class="view_1">
+    <view class="top">
+        <view>
+            <view class="itemname">
+               <view class="left">
+              
+               </view>
+               <view class="right">
+                <view ><text >账号管理员</text></view>
+                 <view ><text >用户编码</text></view>
+               </view>
+            </view>    
+        </view>
+    </view>
+    <!-- 第二部分 -->
+    <view class="order">
+        <view class="ordertop">
+            <view ><text >我的订单</text></view>
+            <view class="right"><text>全部订单</text><image class="icon" src="../../statec/image/进入.png"></image></view> 
+        </view>
+        <view class="orderbottom">
+            <view class="orderstyle">
+                <image class="img1" src="../../statec/image/关于我们.png" alt=""/>
+                <view><text >已订单</text></view>
+            </view>
+            <view class="orderstyle">
+                <image class="img1" src="../../statec/image/关于我们.png" alt=""/>
+                <view ><text >待转单</text></view>
+            </view>
+            <view class="orderstyle">
+                <image class="img1" src="../../statec/image/分类.png" alt=""/>
+                <view ><text >已转单</text></view>
+            </view>
+            <view class="orderstyle">
+                <image class="img1" src="../../statec/image/查看订单.png" alt=""/>
+                <view ><text >已关闭</text></view>
+            </view>
+        </view>
+    </view>
+
+    <!-- 第三部分 -->
+    <view class="money">
+        <view class="moneytop">
+            <view ><text >我的财富</text></view>
+        </view>
+        <view class="moneybottom">
+            <view class="item">
+                <image class="img2" src="../../statec/image/快捷支付.png" alt=""/>
+                <view ><text >查询余额</text></view>
+            </view>
+            <view class="item">
+                <image class="img2" src="../../statec/image/提交验资.png" alt=""/>
+                <view ><text >客户余额</text></view>
+            </view>
+        </view>
+    </view>
+    <!-- 第四部分 -->
+    <view class="manner">
+        <view class="mannertop">
+            <view ><text >经营分析</text></view>
+        </view>
+        <view class="mannerbottom">
+            <view>
+                <image class="img3" src="../../statec/image/验资完成.png" alt=""/>
+                <view >零售</view>
+            </view>
+            <view>
+                <image class="img3" src="../../statec/image/转入资金.png" alt=""/>
+                <view >批发</view>
+            </view>
+            <view>
+                <image class="img3" src="../../statec/image/安全保障.png" alt=""/>
+                <view >滞销库存</view>
+            </view>
+            <view>
+                <image class="img3" src="../../statec/image/提交验资.png" alt=""/>
+                <view >经营看板</view>
+            </view>
+        </view>
+    </view>
+    <!-- 第五部分 -->
+    <view class="set">
+        <view class="settop">
+            <view ><text >系统设置</text></view>
+        </view>
+        <view class="setbottom">
+            <view>
+                <image class="img4" src="../../statec/image/验资完成.png" alt=""/>
+                <view ><text >修改密码</text></view>
+            </view>
+            <view>
+                <image class="img4" src="../../statec/image/首页-置灰.png" alt=""/>
+                <view ><text >退出登录</text></view>
+            </view>
+        </view>
+    </view>
+  </view>
+</view>

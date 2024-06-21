@@ -61,18 +61,33 @@ page {
   flex: 1;
 }
 .main{
+    margin-top: 30rpx;
   display: flex;
+  justify-content:space-around;
+  font-size: 10px;
   view{
-    font-size: small;
-    margin-left: 40rpx;
-    margin-right: 40rpx;
+    font-size: 10px;
+    // margin-left: 80rpx;
+    // margin-left: 40rpx;
+    // margin-right: 40rpx;
     display: flex;
-    text-align: center;
     flex-direction: column;
+    justify-self:center;
+    align-items: center;
     image{
-    margin-left: 5rpx;
-      height: 100rpx;
-      width: 100rpx;
+    // margin-left: 5rpx;
+
+    // margin-bottom: 10rpx;
+    padding-bottom: 10rpx;;
+    width:60rpx;
+    height: 60rpx;
     }
   }
+}
+
+.van-ellipsis{
+    // background-color: deeppink !important;
+}
+.van-tabs__line {
+    background-color: #f778bb !important;
 }

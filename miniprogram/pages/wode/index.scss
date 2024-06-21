@@ -1,1 +1,139 @@
 /* pages/wode/index.wxss */
+.top{
+    height: 80px;
+    background-color: rgb(247, 120, 187);
+    margin-bottom: 10px;
+}
+.itemname{
+    display: flex;
+
+    color: white;
+    .left{
+        margin-top: 13px;
+        margin-left: 10px;
+        width: 35px;
+        height: 35px;
+        background-color: deepskyblue;
+    }
+        .right{
+            margin-top: 13px;
+            margin-left: 5px;
+            font-size: 12px;
+
+    }      
+}
+.order{
+    height: 80px;
+    margin-bottom: 10px;
+    // background-color: rgb(145, 236, 194);
+    .ordertop{
+        display: flex;
+        margin: 10px;
+        justify-content: space-between;
+        font-size: 35rpx;
+        .right{
+            color: rgb(228, 226, 226);
+        }
+        .icon{
+            width: 30rpx;
+            height:30rpx;
+        }
+    }
+    .orderbottom{
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 10px;
+        .orderstyle{
+            .img1{
+                width: 70rpx;
+                height: 70rpx;
+            }
+        }
+    }
+}
+.money{
+    height: 80px;
+    margin-bottom: 10px;
+    // background-color: rgb(207, 194, 243);
+    .moneytop{
+        display: flex;
+        margin: 10px;
+        justify-content: space-between;
+        font-size: 35rpx;
+    }
+    .moneybottom{
+        display: flex;
+        margin-left: 30rpx;
+        font-size: 10px;
+        view{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left: 30rpx;
+        }
+        .img2{
+            padding-left: 35rpx;
+            padding-bottom: 10rpx;
+            width: 60rpx;
+            height: 60rpx;
+        }
+    }
+}
+.manner{
+    height: 80px;
+    margin-bottom: 10px;
+    // background-color: rgb(74, 148, 107);
+    .mannertop{
+        display: flex;
+        margin: 10px;
+        font-size: 35rpx;
+        justify-content: space-between;
+    }
+    .mannerbottom{
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 10px;
+        view{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .img3{
+                width: 60rpx;
+                height: 60rpx;
+                margin-bottom: 7rpx;
+            }
+        }
+    }
+}
+.set{
+    height: 80px;
+    margin-bottom: 10px;
+    // background-color: rgb(189, 206, 93);
+    .settop{
+        display: flex;
+        margin: 10px;
+        justify-content: space-between;
+        font-size: 35rpx;
+    }
+    .setbottom{
+        display: flex;
+        font-size: 10px;
+        margin-left: 10rpx;
+        view{
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            justify-content: center;
+            margin-left: 35rpx;
+        }
+        .img4{
+            padding-left: 35rpx;
+            padding-bottom: 10rpx;
+            width: 55rpx;
+            height: 55rpx;
+        }
+       
+    }
+}

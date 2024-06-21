@@ -1,0 +1,15 @@
+<!-- pages/login.wxml -->
+<!-- <text>pages/login.wxml</text> -->
+<view class="container">
+  <view class="input-group">
+    <input class="input" placeholder="请输入客户编号" />
+  </view>
+  <view class="input-group">
+    <input class="input" placeholder="请输入密码" password="true" />
+    <checkbox-group>
+      <label class="checkbox"><checkbox value="rememberMe" />记住密码</label>
+    </checkbox-group>
+  </view>
+  <navigator url="../register/register">注册账号</navigator>
+  <button class="login-btn" bindtap="onLogin">马上登录</button>
+</view>

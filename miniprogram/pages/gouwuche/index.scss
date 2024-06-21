@@ -16,10 +16,13 @@ $image-size: 100rpx;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
   .section-title {
-    font-size: 32rpx;
-    font-weight: bold;
-    color: $primary-color;
+    font-size: 35rpx;
+    margin-left: 20rpx;
+    // font-weight: bold;
+    // color: $primary-color;
+    // color: #f778bb;
     margin-bottom: $padding;
+    // margin-bottom: 50rpx;
   }
 
   .content {
@@ -27,6 +30,7 @@ $image-size: 100rpx;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin-top: 20rpx;
 
     .nav-item {
       text-decoration: none;
@@ -39,15 +43,17 @@ $image-size: 100rpx;
       width: 200rpx;
 
       image {
-        height: $image-size;
-        width: $image-size;
+        // height: $image-size;
+        // width: $image-size;
+        width: 60rpx;
+        height: 60rpx;
         margin-bottom: 10rpx;
         border-radius: $border-radius;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       }
 
       .item-text {
-        font-size: 28rpx;
+        font-size: 25rpx;
         color: $secondary-color;
         text-align: center;
       }
